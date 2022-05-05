@@ -52,4 +52,58 @@ public class ContactHelper extends HelperBase{
        }
        return false;
     }
+
+    public int removeOneContact() {
+        int countBefore = countOfContacts();
+        if(!isCountListEmpty()) {
+
+            click(By.cssSelector(".contact-item_card__2SOIM"));
+            click(By.xpath("//button[text()='Remove']"));
+            pause(500);
+        }
+        int countAfter = countOfContacts();
+
+        return countBefore - countAfter;
+    }
+
+    private boolean isCountListEmpty() {
+        return wd.findElements(By.cssSelector(".contact-item_card__2SOIM")).isEmpty();
+    }
+
+    private int countOfContacts() {
+        return wd.findElements(By.cssSelector(".contact-item_card__2SOIM")).size();
+    }
+
+    public void removeAllContacts() {
+        while (wd.findElements(By.cssSelector(".contact-item_card__2SOIM")).size() !=0) {
+
+
+            click(By.cssSelector(".contact-item_card__2SOIM"));
+            click(By.xpath("//button[text()='Remove']"));
+            pause(500);
+        }
+
+
+    }
+
+    public void provideContactData() {
+        Contact contact = Contact.builder()
+                .name("John")
+                .lastName("Dow")
+                .phone("1234567")
+                .email("john@gmail.com")
+                .address("Rehovot")
+                .description("The best friend")
+                .build();
+        openContactForm();
+        fillContactForm(contact);
+        saveContact();
+
+    }
+
+    public boolean isAllContactRemoveMessage() {
+        wd.findElement(By.cssSelector(".contact-page_message__2qafk"));
+        String message = wd.findElement(By.cssSelector(".contact-page_message__2qafk h1")).getText();
+        return message.equals("No Contacts here!");
+    }
 }

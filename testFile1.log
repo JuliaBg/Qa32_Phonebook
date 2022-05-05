@@ -1,0 +1,3 @@
+18:40:15.533  INFO  manager.ApplicationManager - All tests start in ChromeDriver
+18:40:16.534  INFO  manager.ApplicationManager - The link is -->https://contacts-app.tobbymarshall815.vercel.app/home
+18:40:21.642  INFO  tests.TestBase - The test starts with data [ula@gmail.co] & [Ula12345$]

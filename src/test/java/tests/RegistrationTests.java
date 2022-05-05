@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 public class RegistrationTests extends TestBase {
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preCondition(){
         if(app.getHelperUser().isLogOutPresent()){
             app.getHelperUser().logout();
@@ -16,11 +16,14 @@ public class RegistrationTests extends TestBase {
     }
 
 
-        @Test
+        @Test(groups = {"web"})
         public void registrationSuccess () {
 
-            int index = (int) System.currentTimeMillis();
-            System.out.println(index);
+            int index = (int) (System.currentTimeMillis()/1000)%3600;
+
+            System.out.println("ylla"+index+"@gmail.com");
+            logger.info("ylla"+index+"@gmail.com");
+            logger.info("The index is -->"+index);
 
             app.getHelperUser().openLoginRegistrationForm();
             app.getHelperUser().fillLoginRegistrationForm("ylla" + index + "@gmail.com", "Ylla12345$");

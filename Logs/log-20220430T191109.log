@@ -1,0 +1,41 @@
+19:11:11.175  INFO  manager.ApplicationManager - All tests start in ChromeDriver
+19:11:12.153  INFO  manager.ApplicationManager - The link is -->https://contacts-app.tobbymarshall815.vercel.app/home
+19:11:12.186  INFO  tests.TestBase - Start test --->removeAllContact
+19:11:12.188  INFO  manager.MyListener - 'Start find' element--->By.xpath: //*[text()='Sign Out']
+19:11:17.229  INFO  manager.MyListener - The element with locator-->By.xpath: //*[text()='Sign Out']<--was found
+19:11:17.232  INFO  manager.MyListener - 'Start find' element--->By.cssSelector: [href='/login']
+19:11:17.250  INFO  manager.MyListener - The element with locator-->By.cssSelector: [href='/login']<--was found
+19:11:17.312  INFO  manager.MyListener - 'Start find' element--->By.xpath: //input[1]
+19:11:17.339  INFO  manager.MyListener - The element with locator-->By.xpath: //input[1]<--was found
+19:11:17.436  INFO  manager.MyListener - 'Start find' element--->By.xpath: //input[2]
+19:11:17.448  INFO  manager.MyListener - The element with locator-->By.xpath: //input[2]<--was found
+19:11:17.539  INFO  manager.MyListener - 'Start find' element--->By.xpath: //button[text()=' Login']
+19:11:17.556  INFO  manager.MyListener - The element with locator-->By.xpath: //button[text()=' Login']<--was found
+19:11:17.591  INFO  manager.MyListener - 'Start find' element--->By.cssSelector: [href='/add']
+19:11:18.346  INFO  manager.MyListener - The element with locator-->By.cssSelector: [href='/add']<--was found
+19:11:18.394  INFO  manager.MyListener - 'Start find' element--->By.cssSelector: [placeholder='Name']
+19:11:18.410  INFO  manager.MyListener - The element with locator-->By.cssSelector: [placeholder='Name']<--was found
+19:11:18.520  INFO  manager.MyListener - 'Start find' element--->By.cssSelector: [placeholder='Last Name']
+19:11:18.537  INFO  manager.MyListener - The element with locator-->By.cssSelector: [placeholder='Last Name']<--was found
+19:11:18.621  INFO  manager.MyListener - 'Start find' element--->By.cssSelector: [placeholder='Phone']
+19:11:18.641  INFO  manager.MyListener - The element with locator-->By.cssSelector: [placeholder='Phone']<--was found
+19:11:18.734  INFO  manager.MyListener - 'Start find' element--->By.cssSelector: [placeholder='email']
+19:11:18.751  INFO  manager.MyListener - The element with locator-->By.cssSelector: [placeholder='email']<--was found
+19:11:18.845  INFO  manager.MyListener - 'Start find' element--->By.cssSelector: [placeholder='Address']
+19:11:18.860  INFO  manager.MyListener - The element with locator-->By.cssSelector: [placeholder='Address']<--was found
+19:11:18.953  INFO  manager.MyListener - 'Start find' element--->By.cssSelector: [placeholder='description']
+19:11:18.970  INFO  manager.MyListener - The element with locator-->By.cssSelector: [placeholder='description']<--was found
+19:11:19.067  INFO  manager.MyListener - 'Start find' element--->By.cssSelector: b
+19:11:19.090  INFO  manager.MyListener - The element with locator-->By.cssSelector: b<--was found
+19:11:19.121  INFO  manager.MyListener - 'Start find' element--->By.cssSelector: .contact-item_card__2SOIM
+19:11:19.445  INFO  manager.MyListener - The element with locator-->By.cssSelector: .contact-item_card__2SOIM<--was found
+19:11:19.446  INFO  manager.MyListener - 'Start find' element--->By.cssSelector: .contact-item_card__2SOIM
+19:11:19.463  INFO  manager.MyListener - The element with locator-->By.cssSelector: .contact-item_card__2SOIM<--was found
+19:11:19.500  INFO  manager.MyListener - 'Start find' element--->By.xpath: //button[text()='Remove']
+19:11:19.524  INFO  manager.MyListener - The element with locator-->By.xpath: //button[text()='Remove']<--was found
+19:11:20.056  INFO  manager.MyListener - 'Start find' element--->By.cssSelector: .contact-item_card__2SOIM
+19:11:25.117  INFO  manager.MyListener - The element with locator-->By.cssSelector: .contact-item_card__2SOIM<--was found
+19:11:25.117  INFO  manager.MyListener - 'Start find' element--->By.cssSelector: .contact-page_message__2qafk
+19:11:25.141  INFO  manager.MyListener - The element with locator-->By.cssSelector: .contact-page_message__2qafk<--was found
+19:11:25.142  INFO  manager.MyListener - 'Start find' element--->By.cssSelector: .contact-page_message__2qafk h1
+19:11:25.171  INFO  manager.MyListener - The element with locator-->By.cssSelector: .contact-page_message__2qafk h1<--was found

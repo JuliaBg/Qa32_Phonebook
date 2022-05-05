@@ -1,0 +1,17 @@
+15:11:29.010  INFO  manager.ApplicationManager - All tests start in ChromeDriver
+15:11:29.894  INFO  manager.ApplicationManager - The link is -->https://contacts-app.tobbymarshall815.vercel.app/home
+15:11:29.932  INFO  tests.TestBase - Start test --->removeOneContact
+15:11:29.935  INFO  manager.MyListener - 'Start find' element--->By.xpath: //*[text()='Sign Out']
+15:11:34.968  INFO  manager.MyListener - The element with locator-->By.xpath: //*[text()='Sign Out']<--was found
+15:11:34.970  INFO  manager.MyListener - 'Start find' element--->By.cssSelector: [href='/login']
+15:11:34.998  INFO  manager.MyListener - The element with locator-->By.cssSelector: [href='/login']<--was found
+15:11:35.060  INFO  manager.MyListener - 'Start find' element--->By.xpath: //input[1]
+15:11:35.072  INFO  manager.MyListener - The element with locator-->By.xpath: //input[1]<--was found
+15:11:35.176  INFO  manager.MyListener - 'Start find' element--->By.xpath: //input[2]
+15:11:35.197  INFO  manager.MyListener - The element with locator-->By.xpath: //input[2]<--was found
+15:11:35.290  INFO  manager.MyListener - 'Start find' element--->By.xpath: //button[text()=' Login']
+15:11:35.305  INFO  manager.MyListener - The element with locator-->By.xpath: //button[text()=' Login']<--was found
+15:11:35.338  INFO  manager.MyListener - 'Start find' element--->By.cssSelector: .contact-item_card__2SOIM
+15:11:36.274  INFO  manager.MyListener - The element with locator-->By.cssSelector: .contact-item_card__2SOIM<--was found
+15:11:36.315  INFO  manager.MyListener - 'Start find' element--->By.xpath: //button[text()='Remove']
+15:11:36.340  INFO  manager.MyListener - The element with locator-->By.xpath: //button[text()='Remove']<--was found
